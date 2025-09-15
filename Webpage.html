@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal baking Webpage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Webpagestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- This is the main header -->
+        <header class="main-header">
+
+            <!-- Logo in the header -->
+            <div class="Logo-holder"> 
+                <a href="#">
+                <img src="logo.png" alt="Business logo" width="100px" height="100px">
+                </a>
+        
+            </div>
+
+            <div class="search">
+                <form action="#" method="get">
+                    <input type="search" name="search for" placeholder="Seach">
+                    <button type="submit" name="submit">Search</button>
+                </form>
+            </div>
+        </header>
+
+        <nav class="main-menu">
+                <ul>
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="About us">About us</a></li>
+                    <li><a href="Contact us">Contact us</a></li>
+                </ul>
+                
+        </nav>
+
+        <section class="banner-slider">
+            <ul id="adaptive">
+                <li><img src="baking.png" alt="Business photo" width="500px" height="300px" ></li>
+                <li><img src="baking.png" alt="Business photo" width="500px" height="300px"></li>
+                <li><img src="baking.png" alt="Business photo" width="500px" height="300px"></li>
+                <li><img src="baking.png" alt="Business photo" width="500px" height="300px"></li>
+                <li><img src="baking.png" alt="Business photo" width="500px" height="300px"></li>
+            </ul>
+        </section>
+        <section class="main-content">
+        <main >
+            <h1 id="Important header">Hi, this is my baking business page</h1>
+            <h2>The story behind us:</h2>
+             <p>Lucky twist was born out of frustration for the lack of east asia food and atmosphere I used to crave when I first moved to Barcelona</p>
+             <p>After some cinsiderable "market research", aka, eating my way through Hong Kong and South East Asian countries (including Vietnam and Indonesia), I came up with the first idea for <strong> Lucky Twist</strong>. </p>
+             <p>In our cafe you can find some of the most cheerished and loved baked treats and refreshing drinks inspired by my months long sabbatical travelling in that regions.</p>   
+        </main>
+
+        
+        <aside class="sidebar">
+            <div class="widget">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="Facebook">Facebook</a></li>
+                <li><a href="Instagram">Instagram</a></li>
+                <li><a href="Twitter">Twitter</a></li>
+                <li><a href="LinkedIn">LinkedIn</a></li>
+            </ul>
+            </div>
+        </aside>
+        </section>
+    </div>
+
+    <!-- Footer widject -->
+    <section class="footer-widget-holder">
+        <div class="footer-widget">
+            <a href="#">
+                <img id="picture" src="logo.png" alt="Business logo" width="100px" height="100px">
+            </a>
+            <h4 class="bottom-details">Address:</h4>
+            <address>Carrer Major calle, Barcelona 08013 </address>
+        </div>
+        <div class=footer-widget>
+
+            <h4>Sitemap</h4>
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="About us">About us</a></li>
+                <li><a href="Contact us">Contact us</a></li>
+            </ul>
+        </div>
+
+    
+</section>
+    <footer>
+        <p><small>Copyright &copy; 2025</small></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    
+
+   <script> $(document).ready(function() {
+        $('#adaptive').lightSlider({
+            adaptiveHeight:true,
+            item:1,
+            slideMargin:0,
+            loop:true
+        });
+    });
+</script>
+</body>
+</html>
